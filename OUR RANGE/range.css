@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
+
+body{
+    background-image: url(../home-bg2.jpeg);
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.logo{
+    margin-left: -10px;
+}
+
+nav{
+    padding-top: 30px;
+    font-size: large;
+    margin-right: 80px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+li .hoe{
+    font-family: 'Bebas Neue', cursive;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+li .hoe:hover{
+    color: #ff2600;
+    transition: 0.5s;
+}
+
+.spoon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 300px;
+    width: 200px;
+    z-index: 10;
+}
+  
+.spoon img {
+    width: 100%;
+    transform: rotate(-15deg);
+}
+  
+.homepage{
+    border-radius: 30px;
+    height: 220px;
+    width: 1200px;
+    margin-top: -20px;
+    margin-left: 80px;
+}
+
+.cen{
+    text-align: center;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+}
+
+.stay{
+    font-size: 50px;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    margin: 30px auto 0 auto;
+    border-bottom: 3px solid yellow;
+    width: 170px;
+    text-align: center;
+}
+
+.tex{
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+}
+
+.tes{
+    margin-top: -10px;
+    color: white;
+    text-align: center;
+}
+
+.cup{
+    margin-top: 50px;
+    margin-left: 100px;
+    display: inline-flex;
+    gap: 10px;
+}
+
+.tab{
+    border: 3px solid transparent;
+    background-color: #ffe237;
+    width: 150px;
+    height: 60px;
+    border-radius: 20px 20px 0 0;
+    text-align: center;
+    padding: 15px;
+}
+
+.tab a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    color: #c90101;
+    font-weight: bold;
+}
+
+.able{
+    border: 3px solid transparent;
+    background-color: white;
+    width: 150px;
+    height: 60px;
+    border-radius: 20px 20px 0 0;
+    text-align: center;
+    padding: 15px;
+}
+
+.able a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    color: black;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.able a:hover{
+    color: #c90101;
+}
+
+.able2{
+     border: 3px solid transparent;
+    background-color: white;
+    width: 180px;
+    height: 60px;
+    border-radius: 20px 20px 0 0;
+    text-align: center;
+    padding: 15px;
+}
+
+.able2 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    color: black;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.able2 a:hover{
+    color: #c90101;
+
+}
+.able3{
+     border: 3px solid transparent;
+    background-color: white;
+    width: 130px;
+    height: 60px;
+    border-radius: 20px 20px 0 0;
+    text-align: center;
+    padding: 15px;
+}
+
+.able3 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    color: black;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.able3 a:hover{
+    color: #c90101;
+}
+
+.able4{
+     border: 3px solid transparent;
+    background-color: white;
+    width: 120px;
+    height: 60px;
+    border-radius: 20px 20px 0 0;
+    text-align: center;
+    padding: 15px;
+}
+
+.able4 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    color: black;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.able4 a:hover{
+    color: #c90101;
+}
+
+.able1{
+    border: 3px solid transparent;
+    background-color: white;
+    width: 100px;
+    height: 60px;
+    border-radius: 20px 20px 0 0;
+    text-align: center;
+    padding: 15px;
+}
+
+.able1 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    color: black;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.able1 a:hover{
+    color: #c90101;
+}
